@@ -1,0 +1,83 @@
+{
+  "id": "G9",
+  "kind": "sse",
+  "tool": "search_guidance",
+  "category": "api",
+  "purpose": "T",
+  "description": "POST Accept advertises application/json and text/event-stream; either response format is supported",
+  "args": {
+    "question": "optimism bias",
+    "limit": 2
+  },
+  "review_criteria": {
+    "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+    "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+    "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+    "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+  },
+  "responses": [
+    {
+      "call_id": "cb420a3a-254a-4fb3-bb21-31427127f9f5",
+      "requested_at": "2026-10-27T17:13:04.511919+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "id": 490,
+        "params": {
+          "name": "search_guidance",
+          "arguments": {
+            "question": "optimism bias",
+            "limit": 2
+          }
+        }
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:20 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5MAJQJRY088FGHNP4S4V5",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":490,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"Searched for: optimism, bias\\nHow to cite: put the \\\"Cite inline as\\\" link in your sentence, straight after the point it supports. Do not add a sources or references list at the end.\\n\\n## 1. 6. Shortlist appraisal > Optimism bias\\nSource: The Green Book (`green-book`), HM Treasury. Authority: mandatory. page last updated 2026-02-05.\\nCite inline as: ([The Green Book: Optimism bias](https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026#optimism-bias))\\n\\nObligations in this section (verbatim, strength from the modal verb):\\n- [MANDATORY] \\\"Practitioners must account for optimism bias by making explicit adjustments at the outset of an appraisal.\\\"\\n- [RECOMMENDED] \\\"The size of these percentage adjustments should be informed by the evidence base of the originating organisation.\\\"\\n- [RECOMMENDED] \\\"Practitioners should measure average historical forecast errors: the difference between the values that were anticipated in appraisal, and the actual outturn of those values.\\\"\\n- [RECOMMENDED] \\\"Practitioners should consider the forecast errors associated with other similar proposals, either those undertaken by the public body or by similar public bodies.\\\"\\n- [RECOMMENDED] \\\"As the appraisal develops, practitioners should estimate the specific risks of the proposal in more detail.\\\"\\n- [RECOMMENDED] \\\"Practitioners should then reduce the optimism bias adjustment in proportion to the level of risk prevented.\\\"\\n\\nSection text (verbatim):\\n> Optimism bias is the demonstrated systematic tendency for practitioners to be over-optimistic about key assumptions in appraisal, such as social costs, social benefits or project duration. Optimism bias means that:\\n> The capital costs and operating costs of interventions are typically higher in reality than practitioners originally anticipated.\\n> The social benefits of an intervention are typically lower in reality than practitioners originally anticipated.\\n> The time taken to deliver an intervention is typically longer in reality than practitioners originally anticipated.\\n> Practitioners must account for optimism bias by making explicit adjustments at the outset of an appraisal. This means increasing estimated costs and timeframes, and decreasing estimated benefits, to provide a more realistic view of how much the proposal will cost, how long it will take, and what benefits it will deliver.\\n> The size of these percentage adjustments should be informed by the evidence base of the originating organisation. Practitioners should measure average historical forecast errors: the difference between the values that were anticipated in appraisal, and the actual outturn of those values. Practitioners should consider the forecast errors associated with other similar proposals, either those undertaken by the public body or by similar public bodies.\\n> If a public body does not have evidence on their historical optimism bias, then practitioners can use the generic values in the Green Book supplementary guidance on optimism bias. An example of adjusting benefits for optimism bias at a local level can be found in the Green Book supplementary guidance for local partnerships. Some government departments have published supplementary guidance on optimism bias, including the Department for Transport.\\n> As the appraisal develops, practitioners should estimate the specific risks of the proposal in more detail. They may then incorporate prevention costs to prevent, reduce, transfer, or avoid these risks, provided such prevention costs are lower than the cost of the risks being prevented. Practitioners should then reduce the optimism bias adjustment in proportion to the level of risk prevented.\\n\\n## 2. Appendices > Annex 2 - Optimism bias\\nSource: Digital and Data Benefits framework (`digital-data-benefits`), Government Digital Service. Authority: advisory. page last updated 2026-04-07.\\nCite inline as: ([Digital and Data Benefits framework: Annex 2 - Optimism bias](https://www.gov.uk/government/publications/digital-and-data-benefits-framework/digital-and-data-benefits-framework#annex-2---optimism-bias))\\n\\nObligations in this section (verbatim, strength from the modal verb):\\n- [RECOMMENDED] \\\"Optimism bias should be applied to project costs and benefits to remediate the tendency for appraisers to be overly optimistic.\\\"\\n- [RECOMMENDED] \\\"The level of optimism bias should be calculated based on real data from past or similar projects.\\\"\\n- [RECOMMENDED] \\\"This means that benefits should be reduced by 54% initially and costs increased by 200% initially to account for optimism bias.\\\"\\n\\nSection text (verbatim):\\n> Optimism bias should be applied to project costs and benefits to remediate the tendency for appraisers to be overly optimistic. Green Book guidance outlines methods for calculating and applying optimism bias to projects based on a number of generic categories.\\n> The level of optimism bias should be calculated based on real data from past or similar projects. In the absence of robust data, the standard Green Book adjustment rate [footnote 31] can be used for DDaT projects. If necessary, teams can speak to HMT about the level of optimism bias to use. The Green Book provides generic upper bounds for optimism bias to be applied for different types of projects. DDaT projects fall into the “Equipment/Development” category. This category is defined for projects that involve the “provision of equipment and/or development of software and systems”. It provides an upper bound of 54% for benefits and 200% for costs. This means that benefits should be reduced by 54% initially and costs increased by 200% initially to account for optimism bias.\\n\\n---\\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version.\"}],\"isError\":false}}",
+      "body_sha256": "510dab0de399f8982649e612b575f8b4f2f5cbfdc198f54a7d0e76dbcb59b652",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 490,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Searched for: optimism, bias\nHow to cite: put the \"Cite inline as\" link in your sentence, straight after the point it supports. Do not add a sources or references list at the end.\n\n## 1. 6. Shortlist appraisal > Optimism bias\nSource: The Green Book (`green-book`), HM Treasury. Authority: mandatory. page last updated 2026-02-05.\nCite inline as: ([The Green Book: Optimism bias](https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026#optimism-bias))\n\nObligations in this section (verbatim, strength from the modal verb):\n- [MANDATORY] \"Practitioners must account for optimism bias by making explicit adjustments at the outset of an appraisal.\"\n- [RECOMMENDED] \"The size of these percentage adjustments should be informed by the evidence base of the originating organisation.\"\n- [RECOMMENDED] \"Practitioners should measure average historical forecast errors: the difference between the values that were anticipated in appraisal, and the actual outturn of those values.\"\n- [RECOMMENDED] \"Practitioners should consider the forecast errors associated with other similar proposals, either those undertaken by the public body or by similar public bodies.\"\n- [RECOMMENDED] \"As the appraisal develops, practitioners should estimate the specific risks of the proposal in more detail.\"\n- [RECOMMENDED] \"Practitioners should then reduce the optimism bias adjustment in proportion to the level of risk prevented.\"\n\nSection text (verbatim):\n> Optimism bias is the demonstrated systematic tendency for practitioners to be over-optimistic about key assumptions in appraisal, such as social costs, social benefits or project duration. Optimism bias means that:\n> The capital costs and operating costs of interventions are typically higher in reality than practitioners originally anticipated.\n> The social benefits of an intervention are typically lower in reality than practitioners originally anticipated.\n> The time taken to deliver an intervention is typically longer in reality than practitioners originally anticipated.\n> Practitioners must account for optimism bias by making explicit adjustments at the outset of an appraisal. This means increasing estimated costs and timeframes, and decreasing estimated benefits, to provide a more realistic view of how much the proposal will cost, how long it will take, and what benefits it will deliver.\n> The size of these percentage adjustments should be informed by the evidence base of the originating organisation. Practitioners should measure average historical forecast errors: the difference between the values that were anticipated in appraisal, and the actual outturn of those values. Practitioners should consider the forecast errors associated with other similar proposals, either those undertaken by the public body or by similar public bodies.\n> If a public body does not have evidence on their historical optimism bias, then practitioners can use the generic values in the Green Book supplementary guidance on optimism bias. An example of adjusting benefits for optimism bias at a local level can be found in the Green Book supplementary guidance for local partnerships. Some government departments have published supplementary guidance on optimism bias, including the Department for Transport.\n> As the appraisal develops, practitioners should estimate the specific risks of the proposal in more detail. They may then incorporate prevention costs to prevent, reduce, transfer, or avoid these risks, provided such prevention costs are lower than the cost of the risks being prevented. Practitioners should then reduce the optimism bias adjustment in proportion to the level of risk prevented.\n\n## 2. Appendices > Annex 2 - Optimism bias\nSource: Digital and Data Benefits framework (`digital-data-benefits`), Government Digital Service. Authority: advisory. page last updated 2026-04-07.\nCite inline as: ([Digital and Data Benefits framework: Annex 2 - Optimism bias](https://www.gov.uk/government/publications/digital-and-data-benefits-framework/digital-and-data-benefits-framework#annex-2---optimism-bias))\n\nObligations in this section (verbatim, strength from the modal verb):\n- [RECOMMENDED] \"Optimism bias should be applied to project costs and benefits to remediate the tendency for appraisers to be overly optimistic.\"\n- [RECOMMENDED] \"The level of optimism bias should be calculated based on real data from past or similar projects.\"\n- [RECOMMENDED] \"This means that benefits should be reduced by 54% initially and costs increased by 200% initially to account for optimism bias.\"\n\nSection text (verbatim):\n> Optimism bias should be applied to project costs and benefits to remediate the tendency for appraisers to be overly optimistic. Green Book guidance outlines methods for calculating and applying optimism bias to projects based on a number of generic categories.\n> The level of optimism bias should be calculated based on real data from past or similar projects. In the absence of robust data, the standard Green Book adjustment rate [footnote 31] can be used for DDaT projects. If necessary, teams can speak to HMT about the level of optimism bias to use. The Green Book provides generic upper bounds for optimism bias to be applied for different types of projects. DDaT projects fall into the “Equipment/Development” category. This category is defined for projects that involve the “provision of equipment and/or development of software and systems”. It provides an upper bound of 54% for benefits and 200% for costs. This means that benefits should be reduced by 54% initially and costs increased by 200% initially to account for optimism bias.\n\n---\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version."
+            }
+          ],
+          "isError": false
+        }
+      },
+      "latency_ms": 273.9
+    }
+  ],
+  "outcomes": [
+    "tool_ok"
+  ],
+  "auto_pass": true,
+  "manual_review_required": true
+}

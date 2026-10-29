@@ -1,0 +1,28 @@
+Gov Delivery Library — feedback from testing on 27 October 2026
+
+GDL returned useful guidance passages with source links, dates, search terms
+and helpful warnings about guidance that has been replaced.
+
+The final run made 46 requests across 43 cases: 41 passed automated checks;
+two failed because limit=0 and days=0 were accepted despite a minimum of 1.
+Basic connection setup worked. We assessed relevance and completeness separately.
+
+Suggested priorities:
+
+- Make partial matches clearer. NHS technology and coffee searches identified
+  missing terms but returned unrelated passages.
+- Refine suggested conflicts: sampled pairs agreed or concerned unrelated topics.
+  The existing warning that suggestions are unverified is helpful.
+- Flag the old spending-approval process quoted from a project-assurance guide.
+  Other results already warned where guidance had been replaced.
+- Follow the published input rules and explain when input values are replaced.
+
+A query about AI in project reviews missed relevant material found by a rephrased
+query limited to one source. Both inputs changed, so we cannot tell which helped.
+
+All 287 external links returned successful web responses; 215 named webpage
+sections were found. 27 text-highlight and 11 PDF page targets remain unchecked.
+Five sampled quotations matched official pages after allowing for formatting
+differences. These checks do not verify every passage or how AI assistants use it.
+
+report.md links the evidence and instructions for repeating the checks.

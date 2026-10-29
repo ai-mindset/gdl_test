@@ -1,0 +1,85 @@
+{
+  "id": "B4s",
+  "kind": "call",
+  "tool": "search_guidance",
+  "category": "ai",
+  "purpose": "T",
+  "description": "Paired retrieval probe restricted to Gate Review 1: AI/ML emerging-technology evidence",
+  "args": {
+    "question": "artificial intelligence machine learning emerging technologies",
+    "source_id": "gate-review-1",
+    "limit": 5
+  },
+  "review_criteria": {
+    "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+    "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+    "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+    "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+  },
+  "responses": [
+    {
+      "call_id": "f43d28d6-8242-4c89-a380-23765c1245e4",
+      "requested_at": "2026-10-27T17:12:39.043191+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "id": 210,
+        "params": {
+          "name": "search_guidance",
+          "arguments": {
+            "question": "artificial intelligence machine learning emerging technologies",
+            "source_id": "gate-review-1",
+            "limit": 5
+          }
+        }
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:12:55 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5KHT1T2GN4XCCF9HP3H50",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":210,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"Searched for: artificial, intelligence, machine, learning, emerging, technologies\\nAlso searched for: intelligence, artificial, model, algorithm, automated, ethics (because the question looks like it is about ai-use)\\nRestricted to source: gate-review-1\\nHow to cite: put the \\\"Cite inline as\\\" link in your sentence, straight after the point it supports. Do not add a sources or references list at the end.\\n\\n## 1. Assessment of the Proposed Solution > Digital/ICT Specific Questions and Evidence > 1.2 Strategic – Has the project considered the use of emerging technologies?\\nSource: Gate Review 1: Business Justification (`gate-review-1`), NISTA. Authority: mandatory. page last updated 2026-08-20.\\nCite inline as: ([Gate Review 1: Business Justification: 1.2 Strategic – Has the project considered the use of emerging technologies?](https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification#strategic--has-the-project-considered-the-use-of-emerging-technologies))\\n\\nSection text (verbatim):\\n> Evidence\\n> Evidence that the project has considered emerging technologies (i.e., Artificial Intelligence, Machine Learning, Robotic Process Automation) and incorporated them into the benefits management approach.\\n\\n## 2. Assessment of the Proposed Solution > Infrastructure Specific Questions and Evidence > 5.2 Other – Innovation - How has the programme/project explored opportunities for incorporating emerging digital and manufacturing technologies, such as Artificial Intelligence (AI) and smart sensors?\\nSource: Gate Review 1: Business Justification (`gate-review-1`), NISTA. Authority: mandatory. page last updated 2026-08-20.\\nCite inline as: ([Gate Review 1: Business Justification: 5.2 Other – Innovation - How has the programme/project explored opportunities for incorporating emerging digital and manufacturing technologies, such as Artificial Intelligence (AI) and smart sensors?](https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification#other--innovation-how-has-the-programmeproject-explored-opportunities-for-incorporating-emerging-digital-and-manufacturing-technologies-such-as-artificial-intelligence-ai-and-smart-sensors))\\n\\nSection text (verbatim):\\n> Evidence\\n> Evidence of consideration for the use of emerging digital and manufacturing technologies in their work.\\n> Clear articulation of recommendations to use/not use.\\n\\n## 3. Assessment of the Proposed Solution > Digital/ICT Specific Questions and Evidence > 2.1 Economic – How has the benefits management approach been flexed to accommodate the use of Emerging Technologies?\\nSource: Gate Review 1: Business Justification (`gate-review-1`), NISTA. Authority: mandatory. page last updated 2026-08-20.\\nCite inline as: ([Gate Review 1: Business Justification: 2.1 Economic – How has the benefits management approach been flexed to accommodate the use of Emerging Technologies?](https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification#economic--how-has-the-benefits-management-approach-been-flexed-to-accommodate-the-use-of-emerging-technologies))\\n\\nSection text (verbatim):\\n> Evidence\\n> The project makes use of flexible technology components and platforms to create an environment where emerging technologies can be used and integrated at scale.\\n> Technology standards are in place to protect users (benefits).\\n> Best practice with regard to the specific emerging technology has been shared.\\n\\n---\\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version.\"}],\"isError\":false}}",
+      "body_sha256": "0193a58e295bae10217f0588ee3e4f6ad68f0b3a4190c3d532a1aa7eb00a9dc4",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 210,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Searched for: artificial, intelligence, machine, learning, emerging, technologies\nAlso searched for: intelligence, artificial, model, algorithm, automated, ethics (because the question looks like it is about ai-use)\nRestricted to source: gate-review-1\nHow to cite: put the \"Cite inline as\" link in your sentence, straight after the point it supports. Do not add a sources or references list at the end.\n\n## 1. Assessment of the Proposed Solution > Digital/ICT Specific Questions and Evidence > 1.2 Strategic – Has the project considered the use of emerging technologies?\nSource: Gate Review 1: Business Justification (`gate-review-1`), NISTA. Authority: mandatory. page last updated 2026-08-20.\nCite inline as: ([Gate Review 1: Business Justification: 1.2 Strategic – Has the project considered the use of emerging technologies?](https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification#strategic--has-the-project-considered-the-use-of-emerging-technologies))\n\nSection text (verbatim):\n> Evidence\n> Evidence that the project has considered emerging technologies (i.e., Artificial Intelligence, Machine Learning, Robotic Process Automation) and incorporated them into the benefits management approach.\n\n## 2. Assessment of the Proposed Solution > Infrastructure Specific Questions and Evidence > 5.2 Other – Innovation - How has the programme/project explored opportunities for incorporating emerging digital and manufacturing technologies, such as Artificial Intelligence (AI) and smart sensors?\nSource: Gate Review 1: Business Justification (`gate-review-1`), NISTA. Authority: mandatory. page last updated 2026-08-20.\nCite inline as: ([Gate Review 1: Business Justification: 5.2 Other – Innovation - How has the programme/project explored opportunities for incorporating emerging digital and manufacturing technologies, such as Artificial Intelligence (AI) and smart sensors?](https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification#other--innovation-how-has-the-programmeproject-explored-opportunities-for-incorporating-emerging-digital-and-manufacturing-technologies-such-as-artificial-intelligence-ai-and-smart-sensors))\n\nSection text (verbatim):\n> Evidence\n> Evidence of consideration for the use of emerging digital and manufacturing technologies in their work.\n> Clear articulation of recommendations to use/not use.\n\n## 3. Assessment of the Proposed Solution > Digital/ICT Specific Questions and Evidence > 2.1 Economic – How has the benefits management approach been flexed to accommodate the use of Emerging Technologies?\nSource: Gate Review 1: Business Justification (`gate-review-1`), NISTA. Authority: mandatory. page last updated 2026-08-20.\nCite inline as: ([Gate Review 1: Business Justification: 2.1 Economic – How has the benefits management approach been flexed to accommodate the use of Emerging Technologies?](https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification#economic--how-has-the-benefits-management-approach-been-flexed-to-accommodate-the-use-of-emerging-technologies))\n\nSection text (verbatim):\n> Evidence\n> The project makes use of flexible technology components and platforms to create an environment where emerging technologies can be used and integrated at scale.\n> Technology standards are in place to protect users (benefits).\n> Best practice with regard to the specific emerging technology has been shared.\n\n---\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version."
+            }
+          ],
+          "isError": false
+        }
+      },
+      "latency_ms": 442.0
+    }
+  ],
+  "outcomes": [
+    "tool_ok"
+  ],
+  "auto_pass": true,
+  "manual_review_required": true
+}

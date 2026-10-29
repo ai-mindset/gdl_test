@@ -1,0 +1,75 @@
+{
+  "id": "F4",
+  "kind": "call",
+  "tool": "get_source",
+  "category": "tools",
+  "purpose": "I",
+  "description": "get_source(tcop) — relationships + change notes for Technology Code",
+  "args": {
+    "source_id": "tcop"
+  },
+  "responses": [
+    {
+      "call_id": "0a3cb08d-896f-4afb-95c3-bf9ad697209e",
+      "requested_at": "2026-10-27T17:12:57.762708+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "id": 410,
+        "params": {
+          "name": "get_source",
+          "arguments": {
+            "source_id": "tcop"
+          }
+        }
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "1",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:14 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5M3ZQV16A4PM5EHNZ8DAN",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":410,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"# The Technology Code of Practice\\n\\n- id: `tcop`\\n- Owner: Government Digital Service\\n- Spine: digital\\n- Authority: mandatory\\n- Licence: OGL-v3\\n- Canonical URL: https://www.gov.uk/guidance/the-technology-code-of-practice\\n- Status: indexed: its text is searchable here (17 sections)\\n\\n**WARNING (SUPERSEDED, curated):** on spend control process, since 2026-04-01, this source is overtaken by \\\"Getting approval to spend money on a service\\\" (`spend-controls`). Treat the Service Manual as current on who approves digital spend. TCoP remains current on the technology standards themselves, only its spend control section is stale.\\n\\n## Curated relationships\\n- \\\"Getting approval to spend money on a service\\\" **supersedes** \\\"The Technology Code of Practice\\\" on spend control process (since 2026-04-01). Treat the Service Manual as current on who approves digital spend. TCoP remains current on the technology standards themselves, only its spend control section is stale.\\n- \\\"The Technology Code of Practice\\\" **requires** \\\"Secure by design\\\" on security.\\n- \\\"The Technology Code of Practice\\\" **elaborates** \\\"Government Functional Standard GovS 005: Digital\\\" on expectations for technology decisions.\\n- \\\"The Digital, Data and Technology Playbook\\\" **requires** \\\"The Technology Code of Practice\\\" on technology design and data sharing in DDaT procurement.\\n\\n## Recent change notes (the publisher's own words)\\n- 2025-07-07: New email address for GDS assurance team due to recent DSIT machinery of government transfer\\n\\n## Contents (17 headings)\\n- Spend controls (https://www.gov.uk/guidance/the-technology-code-of-practice#spend-controls)\\n- 1. Define user needs (https://www.gov.uk/guidance/the-technology-code-of-practice#define-user-needs)\\n- 2. Make things accessible and inclusive (https://www.gov.uk/guidance/the-technology-code-of-practice#make-things-accessible-and-inclusive)\\n- 3. Be open and use open source (https://www.gov.uk/guidance/the-technology-code-of-practice#be-open-and-use-open-source)\\n- 4. Make use of open standards (https://www.gov.uk/guidance/the-technology-code-of-practice#make-use-of-open-standards)\\n- 5. Use cloud first (https://www.gov.uk/guidance/the-technology-code-of-practice#use-cloud-first)\\n- 6. Make things secure (https://www.gov.uk/guidance/the-technology-code-of-practice#make-things-secure)\\n- 7. Make privacy integral (https://www.gov.uk/guidance/the-technology-code-of-practice#make-privacy-integral)\\n- 8. Share, reuse and collaborate (https://www.gov.uk/guidance/the-technology-code-of-practice#share-reuse-and-collaborate)\\n- 9. Integrate and adapt technology (https://www.gov.uk/guidance/the-technology-code-of-practice#integrate-and-adapt-technology)\\n- 10. Make better use of data (https://www.gov.uk/guidance/the-technology-code-of-practice#make-better-use-of-data)\\n- 11. Define your purchasing strategy (https://www.gov.uk/guidance/the-technology-code-of-practice#define-your-purchasing-strategy)\\n- 12. Make your technology sustainable (https://www.gov.uk/guidance/the-technology-code-of-practice#make-your-technology-sustainable)\\n- 13. Meet the Service Standard (https://www.gov.uk/guidance/the-technology-code-of-practice#meet-the-service-standard)\\n- Contacts (https://www.gov.uk/guidance/the-technology-code-of-practice#contacts)\\n- Contacts > GDS Assurance team (https://www.gov.uk/guidance/the-technology-code-of-practice#gds-assurance-team)\\n- Contacts > Crown Commercial Service (https://www.gov.uk/guidance/the-technology-code-of-practice#crown-commercial-service)\\n---\\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version.\"}],\"isError\":false}}",
+      "body_sha256": "24aabc0db0572ddc6ac611196ed1913679cf5154a95f7b5b88eb74102b65d8bc",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 410,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "# The Technology Code of Practice\n\n- id: `tcop`\n- Owner: Government Digital Service\n- Spine: digital\n- Authority: mandatory\n- Licence: OGL-v3\n- Canonical URL: https://www.gov.uk/guidance/the-technology-code-of-practice\n- Status: indexed: its text is searchable here (17 sections)\n\n**WARNING (SUPERSEDED, curated):** on spend control process, since 2026-04-01, this source is overtaken by \"Getting approval to spend money on a service\" (`spend-controls`). Treat the Service Manual as current on who approves digital spend. TCoP remains current on the technology standards themselves, only its spend control section is stale.\n\n## Curated relationships\n- \"Getting approval to spend money on a service\" **supersedes** \"The Technology Code of Practice\" on spend control process (since 2026-04-01). Treat the Service Manual as current on who approves digital spend. TCoP remains current on the technology standards themselves, only its spend control section is stale.\n- \"The Technology Code of Practice\" **requires** \"Secure by design\" on security.\n- \"The Technology Code of Practice\" **elaborates** \"Government Functional Standard GovS 005: Digital\" on expectations for technology decisions.\n- \"The Digital, Data and Technology Playbook\" **requires** \"The Technology Code of Practice\" on technology design and data sharing in DDaT procurement.\n\n## Recent change notes (the publisher's own words)\n- 2025-07-07: New email address for GDS assurance team due to recent DSIT machinery of government transfer\n\n## Contents (17 headings)\n- Spend controls (https://www.gov.uk/guidance/the-technology-code-of-practice#spend-controls)\n- 1. Define user needs (https://www.gov.uk/guidance/the-technology-code-of-practice#define-user-needs)\n- 2. Make things accessible and inclusive (https://www.gov.uk/guidance/the-technology-code-of-practice#make-things-accessible-and-inclusive)\n- 3. Be open and use open source (https://www.gov.uk/guidance/the-technology-code-of-practice#be-open-and-use-open-source)\n- 4. Make use of open standards (https://www.gov.uk/guidance/the-technology-code-of-practice#make-use-of-open-standards)\n- 5. Use cloud first (https://www.gov.uk/guidance/the-technology-code-of-practice#use-cloud-first)\n- 6. Make things secure (https://www.gov.uk/guidance/the-technology-code-of-practice#make-things-secure)\n- 7. Make privacy integral (https://www.gov.uk/guidance/the-technology-code-of-practice#make-privacy-integral)\n- 8. Share, reuse and collaborate (https://www.gov.uk/guidance/the-technology-code-of-practice#share-reuse-and-collaborate)\n- 9. Integrate and adapt technology (https://www.gov.uk/guidance/the-technology-code-of-practice#integrate-and-adapt-technology)\n- 10. Make better use of data (https://www.gov.uk/guidance/the-technology-code-of-practice#make-better-use-of-data)\n- 11. Define your purchasing strategy (https://www.gov.uk/guidance/the-technology-code-of-practice#define-your-purchasing-strategy)\n- 12. Make your technology sustainable (https://www.gov.uk/guidance/the-technology-code-of-practice#make-your-technology-sustainable)\n- 13. Meet the Service Standard (https://www.gov.uk/guidance/the-technology-code-of-practice#meet-the-service-standard)\n- Contacts (https://www.gov.uk/guidance/the-technology-code-of-practice#contacts)\n- Contacts > GDS Assurance team (https://www.gov.uk/guidance/the-technology-code-of-practice#gds-assurance-team)\n- Contacts > Crown Commercial Service (https://www.gov.uk/guidance/the-technology-code-of-practice#crown-commercial-service)\n---\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version."
+            }
+          ],
+          "isError": false
+        }
+      },
+      "latency_ms": 266.0
+    }
+  ],
+  "outcomes": [
+    "tool_ok"
+  ],
+  "auto_pass": true,
+  "manual_review_required": false
+}

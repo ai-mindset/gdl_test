@@ -1,0 +1,76 @@
+{
+  "id": "G3",
+  "kind": "raw",
+  "category": "api",
+  "purpose": "T",
+  "description": "tools/call with an unknown tool name",
+  "auto_expect_error": [
+    "rpc_error",
+    "tool_isError"
+  ],
+  "payload": {
+    "jsonrpc": "2.0",
+    "method": "tools/call",
+    "params": {
+      "name": "no_such_tool_in_gdl",
+      "arguments": {}
+    }
+  },
+  "responses": [
+    {
+      "call_id": "83c5dfba-6d9a-47dd-bfa2-d75f762fc677",
+      "requested_at": "2026-10-27T17:12:58.530978+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "params": {
+          "name": "no_such_tool_in_gdl",
+          "arguments": {}
+        },
+        "id": 420
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:14 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5M4PVT2FDK3VDR6HXCXVV",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":420,\"error\":{\"code\":-32602,\"message\":\"Unknown tool: no_such_tool_in_gdl\"}}",
+      "body_sha256": "a95931221fcc9376fdb510bc07d5010afad2ea736dcd73d66913f4d4f3634b6c",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 420,
+        "error": {
+          "code": -32602,
+          "message": "Unknown tool: no_such_tool_in_gdl"
+        }
+      },
+      "latency_ms": 380.4
+    }
+  ],
+  "outcomes": [
+    "rpc_error"
+  ],
+  "auto_pass": true,
+  "manual_review_required": false
+}

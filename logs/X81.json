@@ -1,0 +1,83 @@
+{
+  "id": "X81",
+  "kind": "call",
+  "tool": "search_guidance",
+  "category": "followup",
+  "purpose": "I",
+  "description": "Reproduce the original X81 AI insight follow-up",
+  "args": {
+    "question": "What does the Algorithmic Transparency Recording Standard require?",
+    "limit": 5
+  },
+  "review_criteria": {
+    "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+    "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+    "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+    "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+  },
+  "responses": [
+    {
+      "call_id": "7ce202fd-71b2-4761-83b5-011b183b34ad",
+      "requested_at": "2026-10-27T17:13:08.752737+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "id": 530,
+        "params": {
+          "name": "search_guidance",
+          "arguments": {
+            "question": "What does the Algorithmic Transparency Recording Standard require?",
+            "limit": 5
+          }
+        }
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "1",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:25 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5MEPC5MFCAV6S8BJPHY2Z",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":530,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"Searched for: algorithmic, transparency, recording, standard, require\\nHow to cite: put the \\\"Cite inline as\\\" link in your sentence, straight after the point it supports. Do not add a sources or references list at the end.\\n\\n## 1. Transparency > Transparency in the context of AI and algorithmic tools > Using the Algorithmic Transparency Recording Standard\\nSource: Data and AI Ethics Framework (`data-ethics`), Central Digital and Data Office. Authority: advisory. page last updated 2025-12-18.\\nCite inline as: ([Data and AI Ethics Framework: Using the Algorithmic Transparency Recording Standard](https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework#using-the-algorithmic-transparency-recording-standard))\\n\\nObligations in this section (verbatim, strength from the modal verb):\\n- [MANDATORY] \\\"All central government departments and arm’s length bodies that provide public or frontline services, or routinely interact with the general public, must use the ATRS.\\\"\\n\\nSection text (verbatim):\\n> The Algorithmic Transparency Recording Standard (ATRS) establishes a standardised way for public sector organisations to publish information about how and why they’re using algorithmic tools.\\n> All central government departments and arm’s length bodies that provide public or frontline services, or routinely interact with the general public, must use the ATRS. This involves documenting information about any algorithmic tools used in decision-making processes, and making this clearly accessible to the public.\\n> We also recommend the ATRS to other public sector bodies, such as local government, even if they’re not currently mandated to use it.\\n> Even where a tool does not strictly fall within scope of the ATRS, we recommend publishing an ATRS record.\\n\\n## 2. Further resources > Algorithmic Transparency Recording Standard (ATRS)\\nSource: Data and AI Ethics Framework (`data-ethics`), Central Digital and Data Office. Authority: advisory. page last updated 2025-12-18.\\nCite inline as: ([Data and AI Ethics Framework: Algorithmic Transparency Recording Standard (ATRS)](https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework#algorithmic-transparency-recording-standard-atrs))\\n\\nSection text (verbatim):\\n> The ATRS provides a standardised way for public bodies to document information about algorithmic tools used in decision-making processes which impact the public.\\n\\n## 3. (untitled)\\nSource: Algorithmic Transparency Recording Standard (`atrs`), Government Digital Service. Authority: mandatory (for government departments and some arm's-length bodies). page last updated 2025-05-08, over a year ago.\\nCite inline as: ([Algorithmic Transparency Recording Standard: (untitled)](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard))\\n\\nSection text (verbatim):\\n> This guidance helps organisations through the process of completing the Algorithmic Transparency Recording Standard (ATRS) template and publishing the completed record to the GOV.UK repository. It applies both to public sector organisations which are required to publish ATRS records as part of the mandatory policy (those in central government), and those wishing to publish ATRS records on a voluntary basis.\\n\\n## 4. 2. ATRS purpose and scope > What is the ATRS and why does it matter?\\nSource: Algorithmic Transparency Recording Standard (`atrs`), Government Digital Service. Authority: mandatory (for government departments and some arm's-length bodies). page last updated 2025-05-08, over a year ago.\\nCite inline as: ([Algorithmic Transparency Recording Standard: What is the ATRS and why does it matter?](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies#what-is-the-atrs-and-why-does-it-matter))\\n\\nSection text (verbatim):\\n> The Algorithmic Transparency Recording Standard (ATRS) enables public sector organisations to publish information about the algorithmic tools they are using and why they are using them.\\n> It consists of a template for organisations to fill in with key information about their algorithmic tools. This information is then published on the GOV.UK repository in the form of an ATRS record.\\n> By using the ATRS, public sector organisations can:\\n> Drive public understanding and trust in their uses of algorithmic tools, including the boundaries of their use and their role in broader processes;\\n> Enable senior responsible owners to take meaningful accountability for algorithmic tools and their outputs;\\n> Share good practice and innovative use cases, and learn from peers;\\n> Reduce administrative burden by proactively publishing information which may otherwise be raised through Freedom of Information (FOI) requests, parliamentary questions or similar;\\n> Provide clarity to third party suppliers around the transparency requirements required by the public sector.\\n> The ATRS is a core part of the government’s Blueprint for Modern Digital Government, in particular the promise to ‘Commit to transparency, drive accountability’.\\n\\n## 5. 1. Summary\\nSource: Algorithmic Transparency Recording Standard (`atrs`), Government Digital Service. Authority: mandatory (for government departments and some arm's-length bodies). page last updated 2025-05-08, over a year ago.\\nCite inline as: ([Algorithmic Transparency Recording Standard: 1. Summary](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies#summary))\\n\\nObligations in this section (verbatim, strength from the modal verb):\\n- [RECOMMENDED] \\\"This guidance explains what the Algorithmic Transparency Recording Standard (ATRS) is, why it matters and how public sector organisations should use it.\\\"\\n\\nSection text (verbatim):\\n> This guidance explains what the Algorithmic Transparency Recording Standard (ATRS) is, why it matters and how public sector organisations should use it. It includes section-by-section guidance for completing the ATRS template.\\n\\n---\\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version.\"}],\"isError\":false}}",
+      "body_sha256": "cb6fabe0d34f1d0c1a96a4ebb1a78f83c3d17ad1f91e1797e77a35c191baa26b",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 530,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Searched for: algorithmic, transparency, recording, standard, require\nHow to cite: put the \"Cite inline as\" link in your sentence, straight after the point it supports. Do not add a sources or references list at the end.\n\n## 1. Transparency > Transparency in the context of AI and algorithmic tools > Using the Algorithmic Transparency Recording Standard\nSource: Data and AI Ethics Framework (`data-ethics`), Central Digital and Data Office. Authority: advisory. page last updated 2025-12-18.\nCite inline as: ([Data and AI Ethics Framework: Using the Algorithmic Transparency Recording Standard](https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework#using-the-algorithmic-transparency-recording-standard))\n\nObligations in this section (verbatim, strength from the modal verb):\n- [MANDATORY] \"All central government departments and arm’s length bodies that provide public or frontline services, or routinely interact with the general public, must use the ATRS.\"\n\nSection text (verbatim):\n> The Algorithmic Transparency Recording Standard (ATRS) establishes a standardised way for public sector organisations to publish information about how and why they’re using algorithmic tools.\n> All central government departments and arm’s length bodies that provide public or frontline services, or routinely interact with the general public, must use the ATRS. This involves documenting information about any algorithmic tools used in decision-making processes, and making this clearly accessible to the public.\n> We also recommend the ATRS to other public sector bodies, such as local government, even if they’re not currently mandated to use it.\n> Even where a tool does not strictly fall within scope of the ATRS, we recommend publishing an ATRS record.\n\n## 2. Further resources > Algorithmic Transparency Recording Standard (ATRS)\nSource: Data and AI Ethics Framework (`data-ethics`), Central Digital and Data Office. Authority: advisory. page last updated 2025-12-18.\nCite inline as: ([Data and AI Ethics Framework: Algorithmic Transparency Recording Standard (ATRS)](https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework#algorithmic-transparency-recording-standard-atrs))\n\nSection text (verbatim):\n> The ATRS provides a standardised way for public bodies to document information about algorithmic tools used in decision-making processes which impact the public.\n\n## 3. (untitled)\nSource: Algorithmic Transparency Recording Standard (`atrs`), Government Digital Service. Authority: mandatory (for government departments and some arm's-length bodies). page last updated 2025-05-08, over a year ago.\nCite inline as: ([Algorithmic Transparency Recording Standard: (untitled)](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard))\n\nSection text (verbatim):\n> This guidance helps organisations through the process of completing the Algorithmic Transparency Recording Standard (ATRS) template and publishing the completed record to the GOV.UK repository. It applies both to public sector organisations which are required to publish ATRS records as part of the mandatory policy (those in central government), and those wishing to publish ATRS records on a voluntary basis.\n\n## 4. 2. ATRS purpose and scope > What is the ATRS and why does it matter?\nSource: Algorithmic Transparency Recording Standard (`atrs`), Government Digital Service. Authority: mandatory (for government departments and some arm's-length bodies). page last updated 2025-05-08, over a year ago.\nCite inline as: ([Algorithmic Transparency Recording Standard: What is the ATRS and why does it matter?](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies#what-is-the-atrs-and-why-does-it-matter))\n\nSection text (verbatim):\n> The Algorithmic Transparency Recording Standard (ATRS) enables public sector organisations to publish information about the algorithmic tools they are using and why they are using them.\n> It consists of a template for organisations to fill in with key information about their algorithmic tools. This information is then published on the GOV.UK repository in the form of an ATRS record.\n> By using the ATRS, public sector organisations can:\n> Drive public understanding and trust in their uses of algorithmic tools, including the boundaries of their use and their role in broader processes;\n> Enable senior responsible owners to take meaningful accountability for algorithmic tools and their outputs;\n> Share good practice and innovative use cases, and learn from peers;\n> Reduce administrative burden by proactively publishing information which may otherwise be raised through Freedom of Information (FOI) requests, parliamentary questions or similar;\n> Provide clarity to third party suppliers around the transparency requirements required by the public sector.\n> The ATRS is a core part of the government’s Blueprint for Modern Digital Government, in particular the promise to ‘Commit to transparency, drive accountability’.\n\n## 5. 1. Summary\nSource: Algorithmic Transparency Recording Standard (`atrs`), Government Digital Service. Authority: mandatory (for government departments and some arm's-length bodies). page last updated 2025-05-08, over a year ago.\nCite inline as: ([Algorithmic Transparency Recording Standard: 1. Summary](https://www.gov.uk/government/publications/guidance-for-organisations-using-the-algorithmic-transparency-recording-standard/algorithmic-transparency-recording-standard-guidance-for-public-sector-bodies#summary))\n\nObligations in this section (verbatim, strength from the modal verb):\n- [RECOMMENDED] \"This guidance explains what the Algorithmic Transparency Recording Standard (ATRS) is, why it matters and how public sector organisations should use it.\"\n\nSection text (verbatim):\n> This guidance explains what the Algorithmic Transparency Recording Standard (ATRS) is, why it matters and how public sector organisations should use it. It includes section-by-section guidance for completing the ATRS template.\n\n---\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version."
+            }
+          ],
+          "isError": false
+        }
+      },
+      "latency_ms": 244.5
+    }
+  ],
+  "outcomes": [
+    "tool_ok"
+  ],
+  "auto_pass": true,
+  "manual_review_required": true
+}

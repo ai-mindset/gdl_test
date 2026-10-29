@@ -1,0 +1,112 @@
+[
+  {
+    "id": "quote-green-book",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/the-green-book--2/the-green-book-2026#optimism-bias",
+    "text": "Practitioners must account for optimism bias by making explicit adjustments at the outset of an appraisal."
+  },
+  {
+    "id": "quote-magenta-book",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html#section-4-5",
+    "text": "All data used in an evaluation, regardless of its source, must be collected, transferred, stored, processed and deleted in accordance with GDPR and any specific departmental security processes."
+  },
+  {
+    "id": "quote-service-manual",
+    "kind": "quote",
+    "url": "https://www.gov.uk/service-manual/technology/using-common-components#common-platforms-and-standards",
+    "text": "Any common platform you use must have been assured and found to produce outputs that meet the relevant government requirements."
+  },
+  {
+    "id": "quote-ai-playbook",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html#ai-quality-assurance",
+    "text": "To meet quality assurance requirements, AI systems must be trustworthy, accountable, transparent and robust."
+  },
+  {
+    "id": "quote-teal-book",
+    "kind": "quote",
+    "url": "https://projectdelivery.gov.uk/teal-book/home/part-e-planning-and-control/chapter-25-procurement-and-contract-management/#:~:text=25.4%20What%20is%20procurement%20and%20contract%20management%3F,-Procurement%20and%20contract",
+    "text": "Procurement and contract management must conform with the Government Functional Standard for Commercial."
+  },
+  {
+    "id": "genai-withdrawn",
+    "kind": "json",
+    "url": "https://www.gov.uk/api/content/government/publications/generative-ai-framework-for-hmg",
+    "path": [
+      "withdrawn_notice",
+      "withdrawn_at"
+    ],
+    "starts_with": "2025-02-10"
+  },
+  {
+    "id": "genai-successor",
+    "kind": "json",
+    "url": "https://www.gov.uk/api/content/government/publications/generative-ai-framework-for-hmg",
+    "path": [
+      "withdrawn_notice",
+      "explanation"
+    ],
+    "contains": "AI Playbook for the UK Government"
+  },
+  {
+    "id": "govs005-shall-appropriate-guidance",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital/government-functional-standard-govs-005-digital-html",
+    "text": "Organisations shall follow appropriate guidance when implementing data frameworks and operating models, including for cross-government data sharing, business intelligence, artificial intelligence, machine learning, automation and advanced analytics."
+  },
+  {
+    "id": "govs005-best-practice-note",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital/government-functional-standard-govs-005-digital-html",
+    "text": "Note: The following products provide best practice guidance:"
+  },
+  {
+    "id": "govs005-framework-should",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital/government-functional-standard-govs-005-digital-html",
+    "text": "organisations should use the Data and AI Ethics Framework"
+  },
+  {
+    "id": "nista-names-ai-ml",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification",
+    "text": "Evidence that the project has considered emerging technologies (i.e., Artificial Intelligence, Machine Learning, Robotic Process Automation) and incorporated them into the benefits management approach."
+  },
+  {
+    "id": "nista-indicative-evidence",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/gate-review-1-business-justification/gate-1-review-business-justification",
+    "text": "These topics and the examples of evidence should be regarded as indicative and not prescriptive."
+  },
+  {
+    "id": "magenta-preserve-should",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html",
+    "text": "The use of AI should be proportionate, quality-assured and verifiable."
+  },
+  {
+    "id": "magenta-ai-footnotes",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html",
+    "text": "The UK government has highlighted general principles and safeguards that should be taken into account for safe and responsible AI usage in the Generative AI framework for HM Government"
+  },
+  {
+    "id": "atrs-scope",
+    "kind": "quote",
+    "url": "https://www.gov.uk/government/publications/data-ethics-framework/data-and-ai-ethics-framework",
+    "text": "All central government departments and arm’s length bodies that provide public or frontline services, or routinely interact with the general public, must use the ATRS."
+  },
+  {
+    "id": "spend-control-change",
+    "kind": "quote",
+    "url": "https://www.gov.uk/service-manual/agile-delivery/getting-approval-to-spend-money-on-a-service",
+    "text": "Digital and technology spend controls were replaced on 1 April 2026."
+  },
+  {
+    "id": "teal-publisher-updates",
+    "kind": "quote",
+    "url": "https://projectdelivery.gov.uk/teal-book/home/part-e-planning-and-control/chapter-25-procurement-and-contract-management/",
+    "text": "Updates 1 July 2026"
+  }
+]

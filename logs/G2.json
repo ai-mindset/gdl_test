@@ -1,0 +1,169 @@
+{
+  "id": "G2",
+  "kind": "meta",
+  "category": "api",
+  "purpose": "T",
+  "description": "Cold tools/list: advertised tools and limited schema structural sanity checks",
+  "responses": [
+    {
+      "call_id": "d2a2e38c-dfc1-4504-a42f-2fe591e38199",
+      "requested_at": "2026-10-27T17:12:29.778987+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/list",
+        "id": 110
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:12:46 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5K8NX4T9ZT9YRE4C39H3R",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":110,\"result\":{\"tools\":[{\"name\":\"search_guidance\",\"title\":\"Search UK government delivery guidance\",\"description\":\"Search the curated corpus of UK government delivery guidance (HM Treasury Green Book and business cases, NISTA assurance and gate reviews, GDS Service Manual and Service Standard, Technology Code of Practice, Orange Book risk, evaluation and more). Returns matching sections verbatim with citation links, page dates, extracted obligations labelled MANDATORY/RECOMMENDED/PERMITTED/POSSIBLE, and any curated warning that a source has been superseded. Quote MANDATORY text verbatim, cite the link, and repeat any WARNING alongside the text it applies to.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"question\":{\"type\":\"string\",\"description\":\"What to look for, in plain words. The words the guidance itself would use work best.\"},\"source_id\":{\"type\":\"string\",\"description\":\"Optional: restrict to one source, by id (see coverage).\"},\"limit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":10,\"default\":6,\"description\":\"Number of sections to return.\"}},\"required\":[\"question\"]},\"annotations\":{\"title\":\"Search guidance\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}},{\"name\":\"get_source\",\"title\":\"Describe one source\",\"description\":\"One registered source: owner, authority, licence, canonical URL, whether it is indexed (and why not), curated relationships to other sources (supersedes, conflicts, requires, gates...), recent change notes, and its contents with links.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"source_id\":{\"type\":\"string\",\"description\":\"Source id, e.g. green-book, tcop, service-standard. Call coverage for the list.\"}},\"required\":[\"source_id\"]},\"annotations\":{\"title\":\"Describe source\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}},{\"name\":\"coverage\",\"title\":\"What the corpus covers\",\"description\":\"The declared boundary of the corpus: every registered source by spine with its id, which are not indexed and why, which have no curated relationships, and when it was last refreshed. Call this to find source ids, or before treating an empty search as meaningful.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{}},\"annotations\":{\"title\":\"Coverage\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}},{\"name\":\"recent_changes\",\"title\":\"Recent changes to the guidance\",\"description\":\"Change notes published by the guidance owners, in their own words, newest first.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"days\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":730,\"default\":90,\"description\":\"How far back to look.\"},\"source_id\":{\"type\":\"string\",\"description\":\"Optional: one source only.\"}}},\"annotations\":{\"title\":\"Recent changes\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}}]}}",
+      "body_sha256": "fb3a06135bfe14d3fb3d390aed72c0f2f4c3ec01464b6233228c52c13c617fe1",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 110,
+        "result": {
+          "tools": [
+            {
+              "name": "search_guidance",
+              "title": "Search UK government delivery guidance",
+              "description": "Search the curated corpus of UK government delivery guidance (HM Treasury Green Book and business cases, NISTA assurance and gate reviews, GDS Service Manual and Service Standard, Technology Code of Practice, Orange Book risk, evaluation and more). Returns matching sections verbatim with citation links, page dates, extracted obligations labelled MANDATORY/RECOMMENDED/PERMITTED/POSSIBLE, and any curated warning that a source has been superseded. Quote MANDATORY text verbatim, cite the link, and repeat any WARNING alongside the text it applies to.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "question": {
+                    "type": "string",
+                    "description": "What to look for, in plain words. The words the guidance itself would use work best."
+                  },
+                  "source_id": {
+                    "type": "string",
+                    "description": "Optional: restrict to one source, by id (see coverage)."
+                  },
+                  "limit": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 10,
+                    "default": 6,
+                    "description": "Number of sections to return."
+                  }
+                },
+                "required": [
+                  "question"
+                ]
+              },
+              "annotations": {
+                "title": "Search guidance",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "get_source",
+              "title": "Describe one source",
+              "description": "One registered source: owner, authority, licence, canonical URL, whether it is indexed (and why not), curated relationships to other sources (supersedes, conflicts, requires, gates...), recent change notes, and its contents with links.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "source_id": {
+                    "type": "string",
+                    "description": "Source id, e.g. green-book, tcop, service-standard. Call coverage for the list."
+                  }
+                },
+                "required": [
+                  "source_id"
+                ]
+              },
+              "annotations": {
+                "title": "Describe source",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "coverage",
+              "title": "What the corpus covers",
+              "description": "The declared boundary of the corpus: every registered source by spine with its id, which are not indexed and why, which have no curated relationships, and when it was last refreshed. Call this to find source ids, or before treating an empty search as meaningful.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {}
+              },
+              "annotations": {
+                "title": "Coverage",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "recent_changes",
+              "title": "Recent changes to the guidance",
+              "description": "Change notes published by the guidance owners, in their own words, newest first.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "days": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 730,
+                    "default": 90,
+                    "description": "How far back to look."
+                  },
+                  "source_id": {
+                    "type": "string",
+                    "description": "Optional: one source only."
+                  }
+                }
+              },
+              "annotations": {
+                "title": "Recent changes",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            }
+          ]
+        }
+      },
+      "latency_ms": 543.2
+    }
+  ],
+  "schema_sanity": {
+    "search_guidance": [],
+    "get_source": [],
+    "coverage": [],
+    "recent_changes": []
+  },
+  "outcomes": [
+    "tools_list"
+  ],
+  "auto_pass": true,
+  "manual_review_required": false
+}

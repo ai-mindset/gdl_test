@@ -1,0 +1,272 @@
+{
+  "id": "G1",
+  "kind": "initialize",
+  "category": "api",
+  "purpose": "T",
+  "description": "Isolated initialize, initialized notification, and versioned tools/list lifecycle probe",
+  "responses": [
+    {
+      "call_id": "0ba46632-1b62-4724-b5b8-f627d9e7454f",
+      "requested_at": "2026-10-27T17:13:06.261073+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "initialize",
+        "id": 510,
+        "params": {
+          "protocolVersion": "2025-11-25",
+          "capabilities": {},
+          "clientInfo": {
+            "name": "gdl-clitest",
+            "version": "0.2"
+          }
+        }
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:22 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5MC9378TTTJSHTC68Q6TN",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":510,\"result\":{\"protocolVersion\":\"2025-11-25\",\"capabilities\":{\"tools\":{\"listChanged\":false}},\"serverInfo\":{\"name\":\"gov-delivery-library\",\"title\":\"Gov Delivery Library\",\"version\":\"0.1.0\"},\"instructions\":\"The Gov Delivery Library serves UK government delivery guidance from a hand-curated registry of sources, refreshed weekly from GOV.UK and the Government Project Delivery website. It is unofficial.\\n\\nWhen you answer from these tools:\\n- Quote requirements labelled MANDATORY verbatim, in quotation marks. Never paraphrase one.\\n- Cite inline, never at the end. Each result has a \\\"Cite inline as\\\" link: put it in your sentence straight after the point it supports, for example: Digital and technology spend above the department's delegated limit needs HM Treasury approval ([Getting approval to spend money on a service: When you need extra approval or support](https://www.gov.uk/...)). Do not write a \\\"Sources\\\" or \\\"References\\\" section, and do not use numbered footnotes.\\n- If something comes from your own knowledge rather than these tools, say so.\\n- When a result carries a WARNING (superseded or conflict), state it before or alongside the text it applies to.\\n- Mention the page date when a result says the page is old.\\n- \\\"Possible conflict (NOT verified)\\\" notes are machine suggestions. Present them as such, never as fact.\\n- If a search finds nothing, say the corpus has a gap there. Do not fill it from memory as if it were current guidance. Call coverage to see what is in scope.\"}}",
+      "body_sha256": "1a0e2d42952bdb7a1d7a4431f6e220098c330a400ceeb05215c932dcbf15245b",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 510,
+        "result": {
+          "protocolVersion": "2025-11-25",
+          "capabilities": {
+            "tools": {
+              "listChanged": false
+            }
+          },
+          "serverInfo": {
+            "name": "gov-delivery-library",
+            "title": "Gov Delivery Library",
+            "version": "0.1.0"
+          },
+          "instructions": "The Gov Delivery Library serves UK government delivery guidance from a hand-curated registry of sources, refreshed weekly from GOV.UK and the Government Project Delivery website. It is unofficial.\n\nWhen you answer from these tools:\n- Quote requirements labelled MANDATORY verbatim, in quotation marks. Never paraphrase one.\n- Cite inline, never at the end. Each result has a \"Cite inline as\" link: put it in your sentence straight after the point it supports, for example: Digital and technology spend above the department's delegated limit needs HM Treasury approval ([Getting approval to spend money on a service: When you need extra approval or support](https://www.gov.uk/...)). Do not write a \"Sources\" or \"References\" section, and do not use numbered footnotes.\n- If something comes from your own knowledge rather than these tools, say so.\n- When a result carries a WARNING (superseded or conflict), state it before or alongside the text it applies to.\n- Mention the page date when a result says the page is old.\n- \"Possible conflict (NOT verified)\" notes are machine suggestions. Present them as such, never as fact.\n- If a search finds nothing, say the corpus has a gap there. Do not fill it from memory as if it were current guidance. Call coverage to see what is in scope."
+        }
+      },
+      "latency_ms": 354.9
+    },
+    {
+      "call_id": "4d4399bb-20b0-4952-ae22-6d7651f6cdf6",
+      "requested_at": "2026-10-27T17:13:06.616206+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "notifications/initialized"
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)",
+        "MCP-Protocol-Version": "2025-11-25"
+      },
+      "status": 202,
+      "content_type": "",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "1",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=202",
+        "Content-Length": "0",
+        "Date": "Tue, 27 Oct 2026 17:13:23 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5MCKKM5VB6CAWQQ29FXDA",
+        "Connection": "close"
+      },
+      "raw_body": "",
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body": {
+        "_unparsed": ""
+      },
+      "latency_ms": 366.8
+    },
+    {
+      "call_id": "14c972e7-2a55-4c97-8028-0fe1969193db",
+      "requested_at": "2026-10-27T17:13:06.983289+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/list",
+        "id": 511
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)",
+        "MCP-Protocol-Version": "2025-11-25"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:23 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5MD07V61WA3Q1C79MN3QX",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":511,\"result\":{\"tools\":[{\"name\":\"search_guidance\",\"title\":\"Search UK government delivery guidance\",\"description\":\"Search the curated corpus of UK government delivery guidance (HM Treasury Green Book and business cases, NISTA assurance and gate reviews, GDS Service Manual and Service Standard, Technology Code of Practice, Orange Book risk, evaluation and more). Returns matching sections verbatim with citation links, page dates, extracted obligations labelled MANDATORY/RECOMMENDED/PERMITTED/POSSIBLE, and any curated warning that a source has been superseded. Quote MANDATORY text verbatim, cite the link, and repeat any WARNING alongside the text it applies to.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"question\":{\"type\":\"string\",\"description\":\"What to look for, in plain words. The words the guidance itself would use work best.\"},\"source_id\":{\"type\":\"string\",\"description\":\"Optional: restrict to one source, by id (see coverage).\"},\"limit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":10,\"default\":6,\"description\":\"Number of sections to return.\"}},\"required\":[\"question\"]},\"annotations\":{\"title\":\"Search guidance\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}},{\"name\":\"get_source\",\"title\":\"Describe one source\",\"description\":\"One registered source: owner, authority, licence, canonical URL, whether it is indexed (and why not), curated relationships to other sources (supersedes, conflicts, requires, gates...), recent change notes, and its contents with links.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"source_id\":{\"type\":\"string\",\"description\":\"Source id, e.g. green-book, tcop, service-standard. Call coverage for the list.\"}},\"required\":[\"source_id\"]},\"annotations\":{\"title\":\"Describe source\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}},{\"name\":\"coverage\",\"title\":\"What the corpus covers\",\"description\":\"The declared boundary of the corpus: every registered source by spine with its id, which are not indexed and why, which have no curated relationships, and when it was last refreshed. Call this to find source ids, or before treating an empty search as meaningful.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{}},\"annotations\":{\"title\":\"Coverage\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}},{\"name\":\"recent_changes\",\"title\":\"Recent changes to the guidance\",\"description\":\"Change notes published by the guidance owners, in their own words, newest first.\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"days\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":730,\"default\":90,\"description\":\"How far back to look.\"},\"source_id\":{\"type\":\"string\",\"description\":\"Optional: one source only.\"}}},\"annotations\":{\"title\":\"Recent changes\",\"readOnlyHint\":true,\"destructiveHint\":false,\"idempotentHint\":true,\"openWorldHint\":false}}]}}",
+      "body_sha256": "6bdc5103d19511ec31bf0237d29d10c50a25e6596aac1ba39083f3ac832ce18a",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 511,
+        "result": {
+          "tools": [
+            {
+              "name": "search_guidance",
+              "title": "Search UK government delivery guidance",
+              "description": "Search the curated corpus of UK government delivery guidance (HM Treasury Green Book and business cases, NISTA assurance and gate reviews, GDS Service Manual and Service Standard, Technology Code of Practice, Orange Book risk, evaluation and more). Returns matching sections verbatim with citation links, page dates, extracted obligations labelled MANDATORY/RECOMMENDED/PERMITTED/POSSIBLE, and any curated warning that a source has been superseded. Quote MANDATORY text verbatim, cite the link, and repeat any WARNING alongside the text it applies to.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "question": {
+                    "type": "string",
+                    "description": "What to look for, in plain words. The words the guidance itself would use work best."
+                  },
+                  "source_id": {
+                    "type": "string",
+                    "description": "Optional: restrict to one source, by id (see coverage)."
+                  },
+                  "limit": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 10,
+                    "default": 6,
+                    "description": "Number of sections to return."
+                  }
+                },
+                "required": [
+                  "question"
+                ]
+              },
+              "annotations": {
+                "title": "Search guidance",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "get_source",
+              "title": "Describe one source",
+              "description": "One registered source: owner, authority, licence, canonical URL, whether it is indexed (and why not), curated relationships to other sources (supersedes, conflicts, requires, gates...), recent change notes, and its contents with links.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "source_id": {
+                    "type": "string",
+                    "description": "Source id, e.g. green-book, tcop, service-standard. Call coverage for the list."
+                  }
+                },
+                "required": [
+                  "source_id"
+                ]
+              },
+              "annotations": {
+                "title": "Describe source",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "coverage",
+              "title": "What the corpus covers",
+              "description": "The declared boundary of the corpus: every registered source by spine with its id, which are not indexed and why, which have no curated relationships, and when it was last refreshed. Call this to find source ids, or before treating an empty search as meaningful.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {}
+              },
+              "annotations": {
+                "title": "Coverage",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            },
+            {
+              "name": "recent_changes",
+              "title": "Recent changes to the guidance",
+              "description": "Change notes published by the guidance owners, in their own words, newest first.",
+              "inputSchema": {
+                "type": "object",
+                "properties": {
+                  "days": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 730,
+                    "default": 90,
+                    "description": "How far back to look."
+                  },
+                  "source_id": {
+                    "type": "string",
+                    "description": "Optional: one source only."
+                  }
+                }
+              },
+              "annotations": {
+                "title": "Recent changes",
+                "readOnlyHint": true,
+                "destructiveHint": false,
+                "idempotentHint": true,
+                "openWorldHint": false
+              }
+            }
+          ]
+        }
+      },
+      "latency_ms": 456.2
+    }
+  ],
+  "negotiated_protocol": "2025-11-25",
+  "lifecycle_pass": true,
+  "outcomes": [
+    "rpc_result",
+    "notification_accepted",
+    "tools_list"
+  ],
+  "auto_pass": true,
+  "manual_review_required": false
+}

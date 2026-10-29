@@ -1,0 +1,85 @@
+{
+  "id": "G4",
+  "kind": "raw",
+  "category": "api",
+  "purpose": "T",
+  "description": "search_guidance missing the required question argument",
+  "auto_expect_error": [
+    "rpc_error",
+    "tool_isError"
+  ],
+  "payload": {
+    "jsonrpc": "2.0",
+    "method": "tools/call",
+    "params": {
+      "name": "search_guidance",
+      "arguments": {
+        "limit": 3
+      }
+    }
+  },
+  "responses": [
+    {
+      "call_id": "000e48e4-aeec-4366-b859-25f177f65d13",
+      "requested_at": "2026-10-27T17:12:59.412337+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "params": {
+          "name": "search_guidance",
+          "arguments": {
+            "limit": 3
+          }
+        },
+        "id": 430
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:15 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5M5JZS1KRSRX7TP9M6B40",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":430,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"question is required\"}],\"isError\":true}}",
+      "body_sha256": "7e9039590f8790f234bc4e88753ea7df39f2e2ad9d11e57a076a2ce55db6a1fe",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 430,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "question is required"
+            }
+          ],
+          "isError": true
+        }
+      },
+      "latency_ms": 261.2
+    }
+  ],
+  "outcomes": [
+    "tool_isError"
+  ],
+  "auto_pass": true,
+  "manual_review_required": false
+}

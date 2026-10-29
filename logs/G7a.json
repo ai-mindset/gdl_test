@@ -1,0 +1,85 @@
+{
+  "id": "G7a",
+  "kind": "raw",
+  "category": "api",
+  "purpose": "T",
+  "description": "recent_changes days=0 (below minimum 1)",
+  "auto_expect_error": [
+    "rpc_error",
+    "tool_isError"
+  ],
+  "payload": {
+    "jsonrpc": "2.0",
+    "method": "tools/call",
+    "params": {
+      "name": "recent_changes",
+      "arguments": {
+        "days": 0
+      }
+    }
+  },
+  "responses": [
+    {
+      "call_id": "ed42e03f-8770-4856-a442-f438f9933e13",
+      "requested_at": "2026-10-27T17:13:02.748631+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "params": {
+          "name": "recent_changes",
+          "arguments": {
+            "days": 0
+          }
+        },
+        "id": 470
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "1",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:19 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5M8TV3EVKGQQGJE9TE2TG",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":470,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"# Change notes, last 90 days\\nIn the publisher's own words, newest first. Only notes the publisher wrote are listed: a page can change without one. The exception is the Teal Book (`teal-book`): its publisher's notes cannot be read automatically, so its entries are this tool's own, from comparing each week's text with the last.\\n\\n- **2026-10-01** Government Functional Standard GovS 005: Digital (`govs-005`, Government Digital Service): This version updates terminology to “government digital and data” where appropriate. It also adds proportionate references to Artificial Intelligence (AI), as well as Knowledge and Information Management throughout the entirety of the Functional Standard. https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital\\n- **2026-09-30** The Sourcing Playbook (`sourcing-playbook`, Government Commercial Agency): Replaced the Financial viability risk assessment tool https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks\\n- **2026-09-17** The Sourcing Playbook (`sourcing-playbook`, Government Commercial Agency): Replaced the document: Financial viability risk assessment tool https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks\\n- **2026-08-20** NISTA assurance review toolkit (`nista-assurance-toolkit`, NISTA): First published. https://www.gov.uk/government/collections/nista-assurance-review-toolkit\\n- **2026-08-20** Gate Review 5: Operations Review and Benefit Realisation (`gate-review-5`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-5-operations-review-and-benefit-realisation\\n- **2026-08-20** Gate Review 4: Readiness for Service (`gate-review-4`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-4-readiness-for-service\\n- **2026-08-20** Gate Review 3: Investment Decision (`gate-review-3`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-3-investment-decision\\n- **2026-08-20** Gate Review 2: Delivery Strategy (`gate-review-2`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-2-delivery-strategy\\n- **2026-08-20** Gate Review 1: Business Justification (`gate-review-1`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published originally will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-1-business-justification\\n- **2026-08-20** Gate Review 0: Strategic Assessment (`gate-review-0`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published originally in will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-0-strategic-assessment\\n- **2026-08-20** Implementing integrated assurance for major projects (`integrated-assurance`, NISTA): A NISTA-branded updated version of this guidance has been added https://www.gov.uk/government/publications/implementing-integrated-assurance-for-major-projects\\n- **2026-08-20** Assurance of benefits realisation in major projects (`benefits-assurance`, NISTA): An updated version of the guidance has been added https://www.gov.uk/government/publications/assurance-of-benefits-realisation-in-major-projects\\n- **2026-08-20** Assurance for agile delivery of digital services (`agile-assurance`, NISTA): An updated NISTA branded version of the guidance has been added https://www.gov.uk/government/publications/assurance-for-agile-delivery-of-digital-services\\n- **2026-08-13** Managing public money (`managing-public-money`, HM Treasury): The template has been added for Arms Length Bodies to use, commencing August 2026.\\r\\nThe template has been updated for Template Delegated Authority Letter for departments to use, commencing August 2026. https://www.gov.uk/government/publications/managing-public-money\\n---\\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version.\"}],\"isError\":false}}",
+      "body_sha256": "cf0294b0a061342b3b59cb28022edf1f58f6e6869b6849b687bfaccd389cf8f1",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 470,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "# Change notes, last 90 days\nIn the publisher's own words, newest first. Only notes the publisher wrote are listed: a page can change without one. The exception is the Teal Book (`teal-book`): its publisher's notes cannot be read automatically, so its entries are this tool's own, from comparing each week's text with the last.\n\n- **2026-10-01** Government Functional Standard GovS 005: Digital (`govs-005`, Government Digital Service): This version updates terminology to “government digital and data” where appropriate. It also adds proportionate references to Artificial Intelligence (AI), as well as Knowledge and Information Management throughout the entirety of the Functional Standard. https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital\n- **2026-09-30** The Sourcing Playbook (`sourcing-playbook`, Government Commercial Agency): Replaced the Financial viability risk assessment tool https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks\n- **2026-09-17** The Sourcing Playbook (`sourcing-playbook`, Government Commercial Agency): Replaced the document: Financial viability risk assessment tool https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks\n- **2026-08-20** NISTA assurance review toolkit (`nista-assurance-toolkit`, NISTA): First published. https://www.gov.uk/government/collections/nista-assurance-review-toolkit\n- **2026-08-20** Gate Review 5: Operations Review and Benefit Realisation (`gate-review-5`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-5-operations-review-and-benefit-realisation\n- **2026-08-20** Gate Review 4: Readiness for Service (`gate-review-4`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-4-readiness-for-service\n- **2026-08-20** Gate Review 3: Investment Decision (`gate-review-3`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-3-investment-decision\n- **2026-08-20** Gate Review 2: Delivery Strategy (`gate-review-2`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-2-delivery-strategy\n- **2026-08-20** Gate Review 1: Business Justification (`gate-review-1`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published originally will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-1-business-justification\n- **2026-08-20** Gate Review 0: Strategic Assessment (`gate-review-0`, NISTA): An html version of the Gateway guidance has been added, which contains minor updates to the .pdf version. The printed .pdf version published originally in will remain on this page, and will be updated over time by NISTA. https://www.gov.uk/government/publications/gate-review-0-strategic-assessment\n- **2026-08-20** Implementing integrated assurance for major projects (`integrated-assurance`, NISTA): A NISTA-branded updated version of this guidance has been added https://www.gov.uk/government/publications/implementing-integrated-assurance-for-major-projects\n- **2026-08-20** Assurance of benefits realisation in major projects (`benefits-assurance`, NISTA): An updated version of the guidance has been added https://www.gov.uk/government/publications/assurance-of-benefits-realisation-in-major-projects\n- **2026-08-20** Assurance for agile delivery of digital services (`agile-assurance`, NISTA): An updated NISTA branded version of the guidance has been added https://www.gov.uk/government/publications/assurance-for-agile-delivery-of-digital-services\n- **2026-08-13** Managing public money (`managing-public-money`, HM Treasury): The template has been added for Arms Length Bodies to use, commencing August 2026.\r\nThe template has been updated for Template Delegated Authority Letter for departments to use, commencing August 2026. https://www.gov.uk/government/publications/managing-public-money\n---\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version."
+            }
+          ],
+          "isError": false
+        }
+      },
+      "latency_ms": 233.2
+    }
+  ],
+  "outcomes": [
+    "tool_ok"
+  ],
+  "auto_pass": false,
+  "manual_review_required": false
+}

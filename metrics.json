@@ -1,0 +1,150 @@
+{
+  "generated": "2026-10-27T17:13:28.684488+00:00",
+  "endpoint": "https://publicdigital-delivery-compass.netlify.app/mcp",
+  "observed_endpoints": [
+    "https://publicdigital-delivery-compass.netlify.app/mcp"
+  ],
+  "evidence_directory": "logs",
+  "logged_entries": 43,
+  "baseline_entries": 40,
+  "current_suite_entries": 43,
+  "run_suite_entries": 43,
+  "mechanical_rules": "Stored entry rules, supplemented by the current suite for legacy clamp checks",
+  "repeat_entries": 1,
+  "followup_entries": 2,
+  "stored_response_occurrences": 46,
+  "legacy_deduplication": "Exact repeated legacy records counted once; new calls use call_id",
+  "http_calls": 46,
+  "latency_observations": 46,
+  "latency_ms": {
+    "min": 233.2,
+    "p50": 406.8,
+    "p95": 505.5,
+    "max": 543.2
+  },
+  "outcomes": {
+    "tool_ok": 39,
+    "rpc_result": 1,
+    "notification_accepted": 1,
+    "tools_list": 2,
+    "rpc_error": 1,
+    "tool_isError": 2
+  },
+  "tools": {
+    "search_guidance": 33,
+    "get_source": 4,
+    "recent_changes": 3,
+    "coverage": 1,
+    "no_such_tool_in_gdl": 1
+  },
+  "baseline": {
+    "http_calls": 44,
+    "latency_observations": 44,
+    "latency_ms": {
+      "min": 233.2,
+      "p50": 410.1,
+      "p95": 505.5,
+      "max": 543.2
+    },
+    "outcomes": {
+      "tool_ok": 37,
+      "rpc_result": 1,
+      "notification_accepted": 1,
+      "tools_list": 2,
+      "rpc_error": 1,
+      "tool_isError": 2
+    },
+    "tools": {
+      "search_guidance": 31,
+      "get_source": 4,
+      "recent_changes": 3,
+      "coverage": 1,
+      "no_such_tool_in_gdl": 1
+    }
+  },
+  "followups": {
+    "http_calls": 2,
+    "latency_observations": 2,
+    "latency_ms": {
+      "min": 244.5,
+      "p50": 244.5,
+      "p95": 306.4,
+      "max": 306.4
+    },
+    "outcomes": {
+      "tool_ok": 2
+    },
+    "tools": {
+      "search_guidance": 2
+    }
+  },
+  "mechanical_checks": {
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "A5": true,
+    "B1": true,
+    "B2": true,
+    "B3": true,
+    "B4": true,
+    "B4s": true,
+    "B5": true,
+    "B6": true,
+    "B7": true,
+    "C1": true,
+    "C2": true,
+    "C3": true,
+    "D1": true,
+    "D2": true,
+    "D3": true,
+    "E1": true,
+    "E2": true,
+    "E3": true,
+    "E4": true,
+    "E5": true,
+    "E6": true,
+    "E7": true,
+    "F1": true,
+    "F2": true,
+    "F3": true,
+    "F4": true,
+    "G1": true,
+    "G2": true,
+    "G3": true,
+    "G4": true,
+    "G5a": false,
+    "G5b": true,
+    "G6": true,
+    "G7a": false,
+    "G7b": true,
+    "G8": true,
+    "G9": true,
+    "X80": true,
+    "X81": true
+  },
+  "manual_review_required": "Mechanical success does not assess relevance or completeness",
+  "links": {
+    "checked": 287,
+    "http_200": 287,
+    "fragment_kinds": {
+      "pdf_page": 11,
+      "none": 34,
+      "text_highlight": 27,
+      "html_anchor": 215
+    },
+    "html_anchors_found": 215,
+    "fully_verified": 249,
+    "failed": [],
+    "unverified_fragments": 38,
+    "legacy_check_format": false,
+    "extracted_urls": 287,
+    "unchecked_urls": []
+  },
+  "repeat_comparison": {
+    "id": "G8",
+    "valid": true,
+    "parsed_result_equal": true,
+    "scope": "one A1 repeat"
+  }
+}

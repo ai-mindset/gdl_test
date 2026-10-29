@@ -1,0 +1,75 @@
+{
+  "id": "F1",
+  "kind": "call",
+  "tool": "recent_changes",
+  "category": "tools",
+  "purpose": "TI",
+  "description": "Read publisher change notes for 30 days; do not compare this window with annual totals",
+  "args": {
+    "days": 30
+  },
+  "responses": [
+    {
+      "call_id": "8ce7d520-2e39-4388-b280-b72645b309e0",
+      "requested_at": "2026-10-27T17:12:55.312694+00:00",
+      "request": {
+        "jsonrpc": "2.0",
+        "method": "tools/call",
+        "id": 380,
+        "params": {
+          "name": "recent_changes",
+          "arguments": {
+            "days": 30
+          }
+        }
+      },
+      "request_headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json, text/event-stream",
+        "User-Agent": "gdl-clitest/0.2 (python-urllib)"
+      },
+      "status": 200,
+      "content_type": "application/json",
+      "final_url": "https://publicdigital-delivery-compass.netlify.app/mcp?key=gdl-trial-2026",
+      "response_headers": {
+        "Access-Control-Allow-Headers": "authorization, content-type, mcp-session-id, mcp-protocol-version, last-event-id",
+        "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+        "Access-Control-Allow-Origin": "*",
+        "Age": "0",
+        "Cache-Control": "no-cache",
+        "Cache-Status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss; fwd-status=200",
+        "Content-Type": "application/json",
+        "Date": "Tue, 27 Oct 2026 17:13:11 GMT",
+        "Netlify-Vary": "query",
+        "Server": "Netlify",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "X-Content-Type-Options": "nosniff",
+        "X-Nf-Request-Id": "01M5Z5M1JK88RH6M4ME21BAM1F",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_body": "{\"jsonrpc\":\"2.0\",\"id\":380,\"result\":{\"content\":[{\"type\":\"text\",\"text\":\"# Change notes, last 30 days\\nIn the publisher's own words, newest first. Only notes the publisher wrote are listed: a page can change without one. The exception is the Teal Book (`teal-book`): its publisher's notes cannot be read automatically, so its entries are this tool's own, from comparing each week's text with the last.\\n\\n- **2026-10-01** Government Functional Standard GovS 005: Digital (`govs-005`, Government Digital Service): This version updates terminology to “government digital and data” where appropriate. It also adds proportionate references to Artificial Intelligence (AI), as well as Knowledge and Information Management throughout the entirety of the Functional Standard. https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital\\n- **2026-09-30** The Sourcing Playbook (`sourcing-playbook`, Government Commercial Agency): Replaced the Financial viability risk assessment tool https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks\\n---\\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version.\"}],\"isError\":false}}",
+      "body_sha256": "48ef81f35ae7cc2c7011b7cbbbc78cf69982b63bd8f3df2515bb52783b87e9d1",
+      "body": {
+        "jsonrpc": "2.0",
+        "id": 380,
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "# Change notes, last 30 days\nIn the publisher's own words, newest first. Only notes the publisher wrote are listed: a page can change without one. The exception is the Teal Book (`teal-book`): its publisher's notes cannot be read automatically, so its entries are this tool's own, from comparing each week's text with the last.\n\n- **2026-10-01** Government Functional Standard GovS 005: Digital (`govs-005`, Government Digital Service): This version updates terminology to “government digital and data” where appropriate. It also adds proportionate references to Artificial Intelligence (AI), as well as Knowledge and Information Management throughout the entirety of the Functional Standard. https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital\n- **2026-09-30** The Sourcing Playbook (`sourcing-playbook`, Government Commercial Agency): Replaced the Financial viability risk assessment tool https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks\n---\nCorpus last refreshed 2026-10-24. Unofficial: the Gov Delivery Library is not a government service. Text is quoted from GOV.UK and projectdelivery.gov.uk under the Open Government Licence v3.0; follow the links for the authoritative version."
+            }
+          ],
+          "isError": false
+        }
+      },
+      "latency_ms": 248.6
+    }
+  ],
+  "outcomes": [
+    "tool_ok"
+  ],
+  "auto_pass": true,
+  "manual_review_required": false
+}

@@ -1,0 +1,28 @@
+[project]
+name = "gdl-test"
+version = "0.1.0"
+description = "Tests, evidence and feedback for the Gov Delivery Library."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/ai-mindset/gdl_test"
+
+[dependency-groups]
+dev = [
+    "ruff==0.17.3",
+    "ty==0.0.93",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.ty.environment]
+python-version = "3.13"

@@ -1,0 +1,748 @@
+[
+  {
+    "id": "G2",
+    "kind": "meta",
+    "category": "api",
+    "purpose": "T",
+    "description": "Cold tools/list: advertised tools and limited schema structural sanity checks"
+  },
+  {
+    "id": "A1",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "canary",
+    "purpose": "T",
+    "description": "Site example: central approval of digital spend after 1 Apr 2026 change",
+    "args": {
+      "question": "Do I still need central approval to spend on digital and technology services?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "A2",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "canary",
+    "purpose": "TI",
+    "description": "Business case threshold below ten million — expect agile-business-case vs spend-controls conflict warning",
+    "args": {
+      "question": "What business case sign-off threshold applies to a smaller digital project costing below ten million pounds?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "A3",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "canary",
+    "purpose": "TI",
+    "description": "Site example: Green Book optimism bias — verbatim quote + heading anchor + page date",
+    "args": {
+      "question": "What does the Green Book say about optimism bias?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "A4",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "canary",
+    "purpose": "T",
+    "description": "NISTA assurance gates applicable to a digital project and their order",
+    "args": {
+      "question": "Which assurance gates apply to a digital project, and when does each one happen?",
+      "limit": 8
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Assess which gates apply and their order/timing; a current Gate 0 page alone is only partial coverage.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "A5",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "canary",
+    "purpose": "TI",
+    "description": "Site example: when a business case is needed and its mandatory contents",
+    "args": {
+      "question": "When do I need a business case, and what must it contain?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B1",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "ai",
+    "purpose": "TI",
+    "description": "Breadth probe: which sources mention AI / ML at all? Must disclose absence, not fill from memory",
+    "args": {
+      "question": "What does UK government delivery guidance say about artificial intelligence and machine learning services?",
+      "limit": 10
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B2",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "ai",
+    "purpose": "TI",
+    "description": "Designing and delivering an AI-powered government service (primary insight question)",
+    "args": {
+      "question": "What should I consider when designing and delivering an AI-powered government service?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B3",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "ai",
+    "purpose": "I",
+    "description": "Risks and safeguards governing AI use in a delivery service (heart of the AI lens)",
+    "args": {
+      "question": "What risks and safeguards should govern the use of AI in a government delivery service?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B4",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "ai",
+    "purpose": "TI",
+    "description": "Retrieval probe: NISTA-specific AI/ML question; distinguish relevance failures from corpus absence",
+    "args": {
+      "question": "What do the NISTA assurance gates say about AI, machine learning or algorithmic services?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B4s",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "ai",
+    "purpose": "T",
+    "description": "Paired retrieval probe restricted to Gate Review 1: AI/ML emerging-technology evidence",
+    "args": {
+      "question": "artificial intelligence machine learning emerging technologies",
+      "source_id": "gate-review-1",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B5",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "ai",
+    "purpose": "TI",
+    "description": "Service Standard on responsible AI, fairness, accountability",
+    "args": {
+      "question": "What does the Service Standard require on responsible AI, fairness and accountability?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B6",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "ai",
+    "purpose": "I",
+    "description": "Green Book stance on investing in AI / digital transformation (over-claiming test)",
+    "args": {
+      "question": "What does the Green Book say about investing in artificial intelligence and digital transformation?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "B7",
+    "kind": "chain",
+    "from": [
+      "B2",
+      "B3"
+    ],
+    "category": "ai",
+    "purpose": "TI",
+    "description": "Multi-hop: take the leading source id from B2/B3, get_source it, then scoped search on AI oversight & reuse",
+    "follow_up_question": "What does this source say about AI oversight, safety, and reusing existing AI services or components?",
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "C1",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "data",
+    "purpose": "TI",
+    "description": "Data protection and data handling requirements for a government service",
+    "args": {
+      "question": "What are the requirements for data protection and data handling in a government service?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "C2",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "data",
+    "purpose": "T",
+    "description": "Data sharing between departments — possibly out of scope (coverage probe)",
+    "args": {
+      "question": "What does the guidance say about sharing data between government departments and agencies?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "C3",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "data",
+    "purpose": "I",
+    "description": "Technology Code on data management and reusing public-sector cloud and data platforms",
+    "args": {
+      "question": "What does the Technology Code say about data management and reusing public sector cloud and data platforms?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "D1",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "technology",
+    "purpose": "I",
+    "description": "Cloud / managed service reuse vs build",
+    "args": {
+      "question": "When should I reuse a cloud or managed service rather than build my own?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "D2",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "technology",
+    "purpose": "I",
+    "description": "Technology Code on reusing existing platforms and services",
+    "args": {
+      "question": "What does the Technology Code say about reusing existing platforms and services?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "D3",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "technology",
+    "purpose": "T",
+    "description": "Service Manual breadth: technology standards and service assurance",
+    "args": {
+      "question": "What does the Service Manual require for technology standards and service assurance?",
+      "limit": 6
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "E1",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "trap",
+    "purpose": "T",
+    "description": "Scope probe: DTAC-specific guidance is excluded; assess partial-match signalling",
+    "args": {
+      "question": "What does DTAC say about clinical information systems?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "E2",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "trap",
+    "purpose": "T",
+    "description": "Mixed-scope probe: AI is indexed, NHS-specific guidance excluded; distinguish case studies from rules",
+    "args": {
+      "question": "What do UK delivery rules require for AI systems used in NHS services?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "E3",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "trap",
+    "purpose": "T",
+    "description": "Scope probe: Scottish-government guidance excluded; assess provenance and applicability",
+    "args": {
+      "question": "What do the Scottish government's rules require for digital delivery projects in Scotland?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "E4",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "trap",
+    "purpose": "T",
+    "description": "Scope probe: procurement law excluded, but indexed delivery guidance may cite it",
+    "args": {
+      "question": "What does Procurement Act 2023 guidance require for digital procurement?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "E5",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "trap",
+    "purpose": "T",
+    "description": "Specificity probe: drone procurement; distinguish topic-specific material from generic procurement",
+    "args": {
+      "question": "What are the rules for government procurement of drones?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "E6",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "trap",
+    "purpose": "T",
+    "description": "Specificity probe: coffee procurement; assess relevance without assuming no applicable rules exist",
+    "args": {
+      "question": "What do the guidelines say about ordering coffee for government projects?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "E7",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "trap",
+    "purpose": "T",
+    "description": "Temporal probe: 2031 optimism bias; require clear dates, do not infer future applicability",
+    "args": {
+      "question": "What does the Green Book say about optimism bias in 2031?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "F1",
+    "kind": "call",
+    "tool": "recent_changes",
+    "category": "tools",
+    "purpose": "TI",
+    "description": "Read publisher change notes for 30 days; do not compare this window with annual totals",
+    "args": {
+      "days": 30
+    }
+  },
+  {
+    "id": "F2",
+    "kind": "call",
+    "tool": "coverage",
+    "category": "tools",
+    "purpose": "TI",
+    "description": "Read declared registered/indexed source counts and explicit scope limits",
+    "args": {}
+  },
+  {
+    "id": "F3",
+    "kind": "call",
+    "tool": "get_source",
+    "category": "tools",
+    "purpose": "TI",
+    "description": "get_source(green-book) — are curated relationships actually populated?",
+    "args": {
+      "source_id": "green-book"
+    }
+  },
+  {
+    "id": "F4",
+    "kind": "call",
+    "tool": "get_source",
+    "category": "tools",
+    "purpose": "I",
+    "description": "get_source(tcop) — relationships + change notes for Technology Code",
+    "args": {
+      "source_id": "tcop"
+    }
+  },
+  {
+    "id": "G3",
+    "kind": "raw",
+    "category": "api",
+    "purpose": "T",
+    "description": "tools/call with an unknown tool name",
+    "auto_expect_error": [
+      "rpc_error",
+      "tool_isError"
+    ],
+    "payload": {
+      "jsonrpc": "2.0",
+      "method": "tools/call",
+      "params": {
+        "name": "no_such_tool_in_gdl",
+        "arguments": {}
+      }
+    }
+  },
+  {
+    "id": "G4",
+    "kind": "raw",
+    "category": "api",
+    "purpose": "T",
+    "description": "search_guidance missing the required question argument",
+    "auto_expect_error": [
+      "rpc_error",
+      "tool_isError"
+    ],
+    "payload": {
+      "jsonrpc": "2.0",
+      "method": "tools/call",
+      "params": {
+        "name": "search_guidance",
+        "arguments": {
+          "limit": 3
+        }
+      }
+    }
+  },
+  {
+    "id": "G5a",
+    "kind": "raw",
+    "category": "api",
+    "purpose": "T",
+    "description": "search_guidance limit=0 (below schema minimum of 1)",
+    "auto_expect_error": [
+      "rpc_error",
+      "tool_isError"
+    ],
+    "payload": {
+      "jsonrpc": "2.0",
+      "method": "tools/call",
+      "params": {
+        "name": "search_guidance",
+        "arguments": {
+          "question": "business case",
+          "limit": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "G5b",
+    "kind": "raw",
+    "category": "api",
+    "purpose": "T",
+    "description": "search_guidance limit=50 (above schema maximum of 10) — error or polite clamp",
+    "auto_expect_error": [
+      "rpc_error",
+      "tool_isError",
+      "tool_ok"
+    ],
+    "payload": {
+      "jsonrpc": "2.0",
+      "method": "tools/call",
+      "params": {
+        "name": "search_guidance",
+        "arguments": {
+          "question": "business case sign-off",
+          "limit": 50
+        }
+      }
+    },
+    "clamp_check": {
+      "kind": "sections",
+      "maximum": 10
+    }
+  },
+  {
+    "id": "G6",
+    "kind": "raw",
+    "category": "api",
+    "purpose": "T",
+    "description": "get_source with an unlisted source_id — error should be informative",
+    "auto_expect_error": [
+      "rpc_error",
+      "tool_isError"
+    ],
+    "payload": {
+      "jsonrpc": "2.0",
+      "method": "tools/call",
+      "params": {
+        "name": "get_source",
+        "arguments": {
+          "source_id": "not-a-real-source"
+        }
+      }
+    }
+  },
+  {
+    "id": "G7a",
+    "kind": "raw",
+    "category": "api",
+    "purpose": "T",
+    "description": "recent_changes days=0 (below minimum 1)",
+    "auto_expect_error": [
+      "rpc_error",
+      "tool_isError"
+    ],
+    "payload": {
+      "jsonrpc": "2.0",
+      "method": "tools/call",
+      "params": {
+        "name": "recent_changes",
+        "arguments": {
+          "days": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "G7b",
+    "kind": "raw",
+    "category": "api",
+    "purpose": "T",
+    "description": "recent_changes days=999 (above maximum 730) — error or clamp",
+    "auto_expect_error": [
+      "rpc_error",
+      "tool_isError",
+      "tool_ok"
+    ],
+    "payload": {
+      "jsonrpc": "2.0",
+      "method": "tools/call",
+      "params": {
+        "name": "recent_changes",
+        "arguments": {
+          "days": 999
+        }
+      }
+    },
+    "clamp_check": {
+      "kind": "days",
+      "maximum": 730
+    }
+  },
+  {
+    "id": "G9",
+    "kind": "sse",
+    "tool": "search_guidance",
+    "category": "api",
+    "purpose": "T",
+    "description": "POST Accept advertises application/json and text/event-stream; either response format is supported",
+    "args": {
+      "question": "optimism bias",
+      "limit": 2
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "G8",
+    "kind": "repeat",
+    "from": [
+      "A1"
+    ],
+    "category": "api",
+    "purpose": "T",
+    "description": "Compare one successful A1 repeat; failed calls are inconclusive, not deterministic"
+  },
+  {
+    "id": "G1",
+    "kind": "initialize",
+    "category": "api",
+    "purpose": "T",
+    "description": "Isolated initialize, initialized notification, and versioned tools/list lifecycle probe"
+  },
+  {
+    "id": "X80",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "followup",
+    "purpose": "I",
+    "description": "Reproduce the original X80 AI insight follow-up",
+    "args": {
+      "question": "What does the Data and AI Ethics Framework require for using AI and data in government delivery?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  },
+  {
+    "id": "X81",
+    "kind": "call",
+    "tool": "search_guidance",
+    "category": "followup",
+    "purpose": "I",
+    "description": "Reproduce the original X81 AI insight follow-up",
+    "args": {
+      "question": "What does the Algorithmic Transparency Recording Standard require?",
+      "limit": 5
+    },
+    "review_criteria": {
+      "relevance": "Inspect the full question and returned section text, including every material topic; a heading alone is insufficient.",
+      "completeness": "Record answered and unanswered parts; retrieval silence is not evidence no guidance exists.",
+      "source_fidelity": "Check requested source/jurisdiction/date against returned provenance; compare named-source and source_id searches.",
+      "warning_accuracy": "Assess curated warnings separately from machine-suggested possible conflicts; preserve obligation modals and source authority."
+    }
+  }
+]

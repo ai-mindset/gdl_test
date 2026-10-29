@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-29T14:34:43.758015+00:00",
+  "tests_run": 39,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "python": "3.14.2",
+  "harness_sha256": "a468e12431f402ee53b3f59343133dc751080b503dcc25dc96d3ffdf1b3938f4",
+  "tests_sha256": "e760ce98e9947b1ba0650d667c3cd3bc6aa416264dd895cdcd8b72871d2a41ba",
+  "evidence_run_sha256": "4dfb42133213bb9d6242f433e75d67379831a4eaf33682a8c8773f4ae58dc2d4"
+}
